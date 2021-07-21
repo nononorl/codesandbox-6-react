@@ -18,7 +18,7 @@ const App = () => {
       <br />
       <button>on/off</button>
       <p>{num}</p>
-      <p>( ｀ー´)ノ</p>
+      {faceShowFlag && <p>( ｀ー´)ノ</p>}
     </>
   );
 };
